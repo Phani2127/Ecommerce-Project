@@ -149,6 +149,9 @@ header{
     background-color: white;
     color: black;
 }
+.clr{
+    color: red;
+}
 
 
 .container hr {
