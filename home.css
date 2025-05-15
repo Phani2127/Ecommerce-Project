@@ -149,6 +149,11 @@ header{
     background-color: white;
     color: black;
 }
+.addcart .addtocart:hover{
+
+    background-color:black;
+    color: white;
+}
 .clr{
     color: red;
 }
