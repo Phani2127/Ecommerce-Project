@@ -35,7 +35,13 @@ function displayProducts(products) {
     container.appendChild(box);
   });
 }
-
+const buttons = document.querySelectorAll(".btn button");
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelector(".active").classList.remove("active");
+    button.classList.add("active");
+  });
+});
 // Add event listeners to filter buttons
 document.querySelectorAll(".btn button").forEach((button) => {
   button.addEventListener("click", () => {
